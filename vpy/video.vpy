@@ -1,0 +1,65 @@
+
+##################################################################################
+
+
+import os
+import mvsfunc as mvf
+from vapoursynth import core
+
+
+##################################################################################
+
+
+f_depth = {
+	'use'		: 0,
+	'begin'		: 32,
+	'end'		: 8,
+}
+
+f_crop = {
+	'use'		: 0,
+	'top'		: 0,
+	'bottom'	: 0,
+	'left'		: 0,
+	'right'		: 0,
+}
+
+f_resize = {
+	'use'		: 0,
+	'w'			: 1280,
+	'h'			: 720,
+	'k'			: 'spline64'
+}
+
+f_waifu2x = {
+	'use'		: 0,
+	'noise'		: 3,
+	'scale'		: 2,
+	'photo'		: False,
+}
+
+
+##################################################################################
+
+
+video = core.ffms2.Source(os.path.splitext(os.path.basename(__file__))[0])
+
+if f_depth['use']:
+	video = mvf.Depth(video, depth = f_depth['begin'])
+	
+if f_crop['use']:
+	video = core.std.CropRel(video, left = f_crop['left'], right = f_crop['right'], top = f_crop['top'], bottom = f_crop['bottom'])
+
+if f_resize['use']:
+	video = core.fmtc.resample(video, w = f_resize['w'], h = f_resize['h'], kernel = f_resize['k'])
+
+if f_waifu2x['use']:
+	video = core.w2xc.Waifu2x(video, noise = f_waifu2x['noise'], scale = f_waifu2x['scale'], photo = f_waifu2x['photo'])
+
+if f_depth['use']:
+	video = mvf.Depth(video, depth = f_depth['end'])
+
+video.set_output()
+
+
+##################################################################################
