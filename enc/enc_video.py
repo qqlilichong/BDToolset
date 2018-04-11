@@ -11,7 +11,7 @@ import subprocess
 
 
 tool = {
-    'BDTOOL': 'G:/BDTool',
+    'BDTOOL': 'E:/gitpri/BDToolset',
     'X265': 'x265/x265.exe',
     'VS': 'C:/Softwares/VapourSynth/core64/vspipe.exe',
 }

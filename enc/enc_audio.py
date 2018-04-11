@@ -11,7 +11,7 @@ import subprocess
 
 
 tool = {
-    'BDTOOL': 'G:/BDTool',
+    'BDTOOL': 'E:/gitpri/BDToolset',
     'EAC3TO': 'eac3to/eac3to.exe',
     'QAAC': 'qaac/qaac.exe',
 }

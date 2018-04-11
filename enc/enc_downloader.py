@@ -20,7 +20,7 @@ def getClipboard():
 #################################################################################
 
 
-aria2 = 'G:/BDTool/aria2/aria2c.exe -x12 -s12 --file-allocation=none'
+aria2 = 'E:/gitpri/BDToolset/aria2/aria2c.exe -x12 -s12 --file-allocation=none'
 url = input('url : ')
 if not url:
 	url = getClipboard()
