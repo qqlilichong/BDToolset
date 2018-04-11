@@ -1,0 +1,26 @@
+[Main]
+Format=mp4
+ExtName=m4v
+
+ZoomDefault=fittoscreen
+
+V1Codec=mpeg4
+V1NbBFrames=0
+V1Bitrate=2000
+V1FrameRateDefault=25
+V1GOPSize=250
+
+A1Codec=libfdk_aac
+A1ObjectType=lc
+A1Channels1=stereo
+A1SampleRateDefault=44100
+A1BitrateDefault=128000
+
+ResDefault=720×576 (Pal)
+Res1=704×576
+Res2=720x480 (NTSC)
+Res2=720×576 (Pal)
+Res3=1280x720
+Aspect1=4:3
+Aspect2=16:9
+AspectDefault=16:9

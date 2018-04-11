@@ -1,0 +1,17 @@
+[Main]
+Format=mov
+ExtName=mov
+
+V1Codec=mjpeg
+V1Bitrate=2000
+V1FrameRateDefault=25
+
+A1Codec=pcm_s16le
+A1SampleRateDefault=44100
+
+AChannelDefault=stereo
+
+Res1=720x480
+Res2=640x480
+Aspect1=16:9
+Aspect2=4:3

@@ -1,0 +1,23 @@
+[Main]
+Name=Epson P-3000 MPEG4 720x576
+Manufacturer=Epson
+Format=mp4
+ExtName=mp4
+
+ZoomDefault=fittoscreen
+
+V1Codec=mpeg4
+V1Bitrate=1400
+V1GOPSize=250
+
+A1Codec=libfdk_aac
+A1ObjectType=lc
+A1Channels1=stereo
+A1SampleRateDefault=48000
+A1BitrateDefault=128000
+
+Res1=720x576
+Aspect1=16:9
+Aspect2=4:3
+
+S1Codec=mov_text

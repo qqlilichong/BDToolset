@@ -1,0 +1,41 @@
+[Main]
+Format=webm
+ExtName=webm
+
+ZoomDefault=fittoscreen
+
+V1Codec=libvpx
+V2FrameRate1=14.985
+V1FrameRate2=23.976
+V1FrameRate3=24
+V1FrameRate4=25 (Pal)
+V1FrameRate5=29.97 (NTSC)
+V1FrameRate6=30
+V1Profile=15
+V1Bitrate=1200
+V1MaxBitrate=2500
+V1MinBitrate=0
+V1MinQuant=4
+V1MaxQuant=63
+V1GOPSize=0
+V1MinGOPSize=0
+V1TokenPart=2
+V1NoiseSensitivity=0
+V1StaticThreshold=0
+V1DropFrame=0
+
+A1Codec=libvorbis
+A1BitrateDefault=128000
+A1BitrateMinDefault=32000
+A1BitrateMaxDefault=192000
+A1SampleRateDefault=44100
+
+AChannelDefault=stereo
+
+ResDefault=720×576 (Pal)
+Res1=Custom
+Res2=704×576
+Res3=720x480 (NTSC)
+Res4=720×576 (Pal)
+Res5=1280x720
+Res6=1920x1080

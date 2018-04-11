@@ -1,0 +1,36 @@
+[Main]
+Format=mpegts
+ExtName1=ts
+
+ZoomDefault=fittoscreen
+
+V1Codec=mpeg2video
+V1FrameRate1=24
+V1FrameRate2=25 (Pal)
+V1FrameRate3=29.97 (NTSC)
+V1FrameRate4=30 (NTSC)
+V1FrameRateDefault=25
+V1NbBFrames=2
+V1Bitrate=2500
+V1MaxBitrate=15000
+V1MinBitrate=0
+V1VBVBuffer=0
+V1Muxrate=0
+V1Packetsize=2048
+V1Level=4
+V1DCPrecision=0
+V1Interlace=1
+
+A1Codec=mp2
+A1BitrateDefault=192000
+A1SampleRateDefault=48000
+
+AChannelDefault=stereo
+
+ResDefault=720×576 (Pal)
+Res1=Custom
+Res2=704×576
+Res3=720x480 (NTSC)
+Res4=720×576 (Pal)
+Res5=1280x720
+Res6=1920x1080
