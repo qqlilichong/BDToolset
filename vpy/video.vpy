@@ -42,7 +42,8 @@ f_waifu2x = {
 ##################################################################################
 
 
-video = core.ffms2.Source(os.path.splitext(os.path.basename(__file__))[0])
+source = os.path.splitext(os.path.basename(__file__))[0]
+video = core.ffms2.Source(source, timecodes = source + '.txt')
 
 if f_depth['use']:
 	video = mvf.Depth(video, depth = f_depth['begin'])
