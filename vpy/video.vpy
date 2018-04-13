@@ -33,9 +33,8 @@ f_resize = {
 
 f_waifu2x = {
 	'use'		: 0,
-	'noise'		: 3,
-	'scale'		: 2,
-	'photo'		: False,
+	'noise'		: 2,
+	'scale'		: 1,
 }
 
 
@@ -55,7 +54,7 @@ if f_resize['use']:
 	video = core.fmtc.resample(video, w = f_resize['w'], h = f_resize['h'], kernel = f_resize['k'])
 
 if f_waifu2x['use']:
-	video = core.w2xc.Waifu2x(video, noise = f_waifu2x['noise'], scale = f_waifu2x['scale'], photo = f_waifu2x['photo'])
+	video = core.w2xc.Waifu2x(video, noise = f_waifu2x['noise'], scale = f_waifu2x['scale'])
 
 if f_depth['use']:
 	video = mvf.Depth(video, depth = f_depth['end'])
