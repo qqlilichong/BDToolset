@@ -12,26 +12,39 @@ import subprocess
 
 tool = {
     'BDTOOL': 'E:/gitpri/BDToolset',
-    'FFMPEG': 'ffmpeg/ffmpeg.exe',
+    'X265': 'x265/x265.exe',
+    'VS': 'C:/Softwares/VapourSynth/core64/vspipe.exe',
 }
 
-ffmpeg = [
-    '-c:v copy',
-    '-c:a aac',
-    '-q:a 0.8',
+x265 = [
+    '--preset', 'veryslow',
+    '--tune', 'littlepox++',
+    '--output-depth 8',
+    '--no-open-gop',
+    '--no-sao',
+    '--no-strong-intra-smoothing',
+    '--no-rect',
+    '--no-amp',
+    '--y4m',
+    '--input -',
 ]
 
 
 #################################################################################
 
 
-# media file.
-tool['SOURCE'] = input('media file : ')
+# vpy file.
+tool['SOURCE'] = input('vpy file : ')
 
-output = os.path.join(os.path.dirname(tool['SOURCE']), 'ffaac_' + os.path.basename(tool['SOURCE']))
+# crf.
+crf = 25
 
-# QAAC params.
-ffmpeg.append('"%s"' % output)
+# output file.
+output = os.path.join(os.path.dirname(tool['SOURCE']), '%s.mkv' % crf)
+
+# x265 params.
+x265.insert(0, '--crf %s' % crf)
+x265.append('-o "%s"' % output)
 
 
 #################################################################################
@@ -56,12 +69,15 @@ for x, y in tool.items():
 
 # make command.
 command = [
-    tool['FFMPEG'],
-    '-i',
+    tool['VS'],
+    '--y4m',
     tool['SOURCE'],
+    '-',
+    '|',
+    tool['X265'],
 ]
 
-command += ffmpeg
+command += x265
 command = ' '.join(line for line in command)
 
 
