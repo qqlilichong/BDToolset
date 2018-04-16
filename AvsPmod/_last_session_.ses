@@ -1,13 +1,13 @@
 (dp1
 S'frame'
 p2
-I6316
+I32560
 sS'preview_placement'
 p3
 I1
 sS'previewWindowVisible'
 p4
-I01
+I00
 sS'scripts'
 p5
 (lp6
@@ -20,8 +20,7 @@ sS'group'
 p10
 NsS'splits'
 p11
-(I-586
-I-300
+(NI-300
 I00
 tp12
 sS'f_encoding'
@@ -30,7 +29,7 @@ S'utf8'
 p14
 sS'text'
 p15
-V\u000aPATH = "E:\u005cgitpri\u005cBDToolset\u005cAvsPmod\u005cavs\u005cplugins\u005c"\u000aLoadPlugin(PATH + "mvtools2.dll")\u000aLoadPlugin(PATH + "mt_masktools-26.dll")\u000aLoadPlugin(PATH + "ffms2.dll")\u000aImport(PATH + "SMDegrain v.2.2d.avsi")\u000a\u000aSetMemoryMax(2500)\u000affvideosource("G:\u005cREMUX\u005c0001\u005cPlanet.Earth.EP05.2006.Ric.mkv")\u000asmdegrain(tr = 20, thsad = 700)\u000a
+V\u000aPATH = "E:\u005cgitpri\u005cBDToolset\u005cAvsPmod\u005cavs\u005cplugins\u005c"\u000aLoadPlugin(PATH + "mvtools2.dll")\u000aLoadPlugin(PATH + "mt_masktools-26.dll")\u000aLoadPlugin(PATH + "ffms2.dll")\u000aImport(PATH + "SMDegrain v.2.2d.avsi")\u000a\u000aSetMemoryMax(2500)\u000affvideosource("G:\u005cREMUX\u005c0001\u005cPlanet.Earth.EP05.2006.Ric.mkv")\u000aSpline64Resize(1280, 720)\u000asmdegrain(tr = 6)\u000a
 p16
 sS'selected'
 p17
@@ -43,10 +42,10 @@ p19
 I73173
 sS'current_frame'
 p20
-I6316
+I32560
 sS'hash'
 p21
-S'e1b65e919f013729a64121afb5020719'
+S'ad042fb34e03ee7e52e0a90d299f2aef'
 p22
 sS'name'
 p23

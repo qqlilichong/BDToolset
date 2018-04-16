@@ -7,4 +7,5 @@ Import(PATH + "SMDegrain v.2.2d.avsi")
 
 SetMemoryMax(2500)
 ffvideosource("G:\REMUX\0001\Planet.Earth.EP05.2006.Ric.mkv")
-smdegrain(tr = 20, thsad = 700)
+Spline64Resize(1280, 720)
+smdegrain(tr = 6)
