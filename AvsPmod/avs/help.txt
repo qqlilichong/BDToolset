@@ -1,0 +1,49 @@
+
+avs4x26x - simple AviSynth pipe tool for x262/x264/x265
+Version: 0.10.0.71, built on Sep 15 2014, 14:23:43
+
+Usage: avs4x26x [avs4x26x options] [x26x options] -o <output> <input>
+
+Supported input formats:
+     .avs
+     .d2v: requires DGDecode.dll
+     .dga: requires DGAVCDecode.dll
+     .dgi: requires DGAVCDecodeDI.dll, DGDecodeNV.dll or DGDecodeIM.dll according to dgi file
+     .vpy: try to use VSImport -> AVISource -> HBVFWSource
+           (VSImport requires VapourSource.dll)
+           (HBVFWSource requires HBVFWSource.dll, and will force input-depth=16)
+     .avi: try to use AVISource -> LWLibavVideoSource -> FFVideoSource(normal)
+                      -> DSS2 -> DirectShowSource
+     .mp4/.m4v/.mov/.3gp/.3g2/.qt:
+           try to use LSMASHVideoSource -> LWLibavVideoSource
+                      -> FFVideoSource(normal) -> DSS2 -> DirectShowSource
+     .m2ts/.mpeg/.vob/.m2v/.mpg/.ogm/.ogv/.ts/.tp/.ps:
+           try to use LWLibavVideoSource
+                      -> FFVideoSource(demuxer="lavf" and seekmode=-1)
+                      -> DSS2 -> DirectShowSource
+           seek-mode will be forced to "safe" for these formats if ffms is used
+     .mkv/.flv/.webm:
+           try to use LWLibavVideoSource -> FFVideoSource(normal) -> DSS2
+                      -> DirectShowSource
+     .rmvb/.divx/.wmv/.wmp/.asf/.rm/.wm:
+           try to use DSS2 -> DirectShowSource
+     (FFVideoSource, LWLibavVideoSource, LSMASHVideoSource, DSS2, DirectShowSource
+           requires ffms2.dll, LSMASHSource.dll, avss.dll, DirectShowSource.dll)
+
+Options:
+ -L, --x26x-binary <file>   User defined x26x binary path.
+                                Default: "x265" if output file is *.h265/.265/.hevc
+                                         otherwise "x264_64"
+     --seek-mode <string>   Set seek mode when using --seek. [Default="fast"]
+                                - fast: Skip process of frames before seek number as x26x does if no
+                                        --tcfile-in/--qpfile specified;
+                                        otherwise freeze frames before seek number to skip process, 
+                                        but keep frame number as-is.
+                                        ( x26x treats tcfile-in/qpfile as timecodes/qpfile of input 
+                                        video, not output video )
+                                        Normally safe enough for randomly seekable AviSynth scripts.
+                                        May break scripts which can only be linearly seeked, such as
+                                        TDecimate(mode=3)
+                                - safe: Process and deliver every frame to x26x.
+                                        Should give accurate result with every AviSynth script.
+                                        Significantly slower when the process is heavy.

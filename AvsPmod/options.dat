@@ -160,2134 +160,1885 @@ p75
 (dp76
 sS'recentfiles'
 p77
-NsS'previewunsavedchanges'
-p78
+(lp78
+VE:\u005cgitpri\u005cBDToolset\u005cAvsPmod\u005cavs\u005csample.avs
+p79
+aVY:\u005cabc.avs
+p80
+asS'previewunsavedchanges'
+p81
 I01
 sS'previewontopofmain'
-p79
+p82
 I01
 sS'autoparentheses'
-p80
+p83
 I1
 sS'zoomindex'
-p81
+p84
 I2
 sS'videostatusbarinfo'
-p82
+p85
 NsS'hidepreview'
-p83
+p86
 I00
 sS'closeneversaved'
-p84
+p87
 I00
 sS'savemarkedavs'
-p85
+p88
 I01
 sS'autoslidermakeunknown'
-p86
-I01
-sS'recentdirSession'
-p87
-S''
-sS'separatevideowindow'
-p88
-I00
-sS'syntaxhighlight'
 p89
 I01
-sS'multilinetab'
+sS'recentdirSession'
 p90
+S''
+sS'separatevideowindow'
+p91
+I00
+sS'syntaxhighlight'
+p92
+I01
+sS'multilinetab'
+p93
 I00
 sS'filteroverrides'
-p91
-(dp92
+p94
+(dp95
 sS'filterdefaults_presets'
-p93
-(dp94
-sS'presetactivatekey'
-p95
-S'return'
 p96
+(dp97
+sS'presetactivatekey'
+p98
+S'return'
+p99
 sS'scraptext'
-p97
+p100
 (V
 I0
 I0
-tp98
+tp101
 sS'imagechoice'
-p99
+p102
 I0
 sS'recentdir'
-p100
-S''
-sS'docsearchpaths'
-p101
-V%pluginsdir%;%avisynthdir%\u005cdocs\u005cenglish\u005ccorefilters;%avisynthdir%\u005cdocs\u005cenglish\u005cexternalfilters
-p102
-sS'snippets'
 p103
-(dp104
-sS'imagesavedir'
+VE:\u005cgitpri\u005cBDToolset\u005cAvsPmod\u005cavs
+p104
+sS'docsearchpaths'
 p105
+S'%pluginsdir%;%avisynthdir%\\docs\\english\\corefilters;%avisynthdir%\\docs\\english\\externalfilters'
+p106
+sS'snippets'
+p107
+(dp108
+sS'imagesavedir'
+p109
 S''
 sS'dimensions'
-p106
-(I704
-I209
-I737
+p110
+(I387
+I103
+I1025
 I550
-tp107
+tp111
 sS'enableframepertab'
-p108
+p112
 I01
 sS'autosliderstartfold'
-p109
+p113
 I0
 sS'useworkdir'
-p110
-I00
-sS'applygroupoffsets'
-p111
-I01
-sS'version'
-p112
-S'2.5.1'
-p113
-sS'disablepreview'
 p114
 I00
-sS'maximized'
+sS'applygroupoffsets'
 p115
-I00
-sS'nrecentfiles'
+I01
+sS'version'
 p116
-I5
-sS'autosliderexclusions'
+S'2.5.1'
 p117
-V
-sS'alwaysloadstartupsession'
+sS'disablepreview'
 p118
 I00
-sS'autoloadedplugins'
+sS'maximized'
 p119
 I01
-sS'usestringeol'
+sS'nrecentfiles'
 p120
+I5
+sS'autosliderexclusions'
+p121
+S''
+sS'alwaysloadstartupsession'
+p122
+I00
+sS'autoloadedplugins'
+p123
+I01
+sS'usestringeol'
+p124
 I01
 sS'foldflag'
-p121
-I01
+p125
+I1
 sS'recentdirPlugins'
-p122
+p126
 S''
 sS'externalplayerargs'
-p123
-V
+p127
+S''
 sS'triminsertchoice'
-p124
+p128
 I0
 sS'autoslidermakestringlist'
-p125
-I01
-sS'keepsliderwindowhidden'
-p126
-I00
-sS'fdb_plugins'
-p127
-I01
-sS'invertscrolling'
-p128
-I00
-sS'autoslideron'
 p129
 I01
-sS'cropchoice'
+sS'keepsliderwindowhidden'
 p130
-I0
-sS'enabletabscrolling'
-p131
 I00
-sS'alwaysontop'
+sS'fdb_plugins'
+p131
+I01
+sS'invertscrolling'
 p132
 I00
-sS'autoslidermakestringfilename'
+sS'autoslideron'
 p133
 I01
-sS'pluginsdir'
+sS'cropchoice'
 p134
-VE:\u005cgitpri\u005cBDToolset\u005cAvsPmod\u005cavs\u005cplugins
+I0
+sS'enabletabscrolling'
 p135
-sS'avisynthhelpfile'
+I00
+sS'alwaysontop'
 p136
-V%avisynthdir%\u005cdocs\u005cenglish\u005cindex.htm
+I00
+sS'autoslidermakestringfilename'
 p137
-sS'alwaysworkdir'
+I01
+sS'pluginsdir'
 p138
+VE:\u005cgitpri\u005cBDToolset\u005cAvsPmod\u005cavs\u005cplugins
+p139
+sS'avisynthhelpfile'
+p140
+S''
+sS'alwaysworkdir'
+p141
 I00
 sS'promptwhenpreview'
-p139
-I00
-sS'syntaxhighlight_preferfunctions'
-p140
-I00
-sS'lastscriptid'
-p141
-NsS'wrap'
 p142
 I00
-sS'exitstatus'
+sS'syntaxhighlight_preferfunctions'
 p143
+I00
+sS'lastscriptid'
+p144
+NsS'wrap'
+p145
+I00
+sS'exitstatus'
+p146
 I0
 sS'previewalwaysontop'
-p144
+p147
 I00
 sS'autocompleteicons'
-p145
+p148
 I01
 sS'imagenamedefaultformat'
-p146
-V%s%06d
-p147
-sS'find_recent'
-p148
-(lp149
-sS'dragupdate'
+p149
+S'%s%06d'
 p150
+sS'find_recent'
+p151
+(lp152
+sS'dragupdate'
+p153
 I01
 sS'enabletabscrolling_groups'
-p151
+p154
 I01
 sS'autoslidermakeintfloat'
-p152
+p155
 I01
 sS'cropminx'
-p153
+p156
 I1
 sS'cropminy'
-p154
+p157
 I1
 sS'calltipsoverautocomplete'
-p155
+p158
 I00
 sS'largeui'
-p156
+p159
 I00
 sS'tabwidth'
-p157
+p160
 I4
 sS'autoslidermakebool'
-p158
+p161
 I01
 sS'autocompletevariables'
-p159
-I01
-sS'allowresize'
-p160
-I01
-sS'periodicbackup'
-p161
-I0
-sS'refreshpreview'
 p162
 I01
-sS'dllnamewarning'
+sS'allowresize'
 p163
 I01
-sS'autocomplete'
+sS'periodicbackup'
 p164
-I01
-sS'askjpegquality'
+I0
+sS'refreshpreview'
 p165
 I01
-sS'useimagesavedir'
+sS'dllnamewarning'
 p166
 I01
-sS'frequentcalltips'
+sS'autocomplete'
 p167
-I00
-sS'customjumpunits'
+I01
+sS'askjpegquality'
 p168
-S'sec'
+I01
+sS'useimagesavedir'
 p169
-sS'maximized2'
+I01
+sS'frequentcalltips'
 p170
 I00
-sS'customjump'
+sS'customjumpunits'
 p171
+S'sec'
+p172
+sS'maximized2'
+p173
+I00
+sS'customjump'
+p174
 I10
 sS'shortcuts'
-p172
-(lp173
-(lp174
-V\u6587\u4ef6(F) -> \u65b0\u5efa\u6807\u7b7e\u9875
 p175
-aS'Ctrl+N'
-p176
-aI143
-aa(lp177
-V\u6587\u4ef6(F) -> \u6253\u5f00\u2026
+(lp176
+(lp177
+S'File -> New tab'
 p178
-aS'Ctrl+O'
+aS'Ctrl+N'
 p179
-aI144
+aI143
 aa(lp180
-V\u6587\u4ef6(F) -> \u64a4\u6d88\u5173\u95ed\u6807\u7b7e\u9875
+S'File -> Open...'
 p181
-aS'Ctrl+Shift+N'
+aS'Ctrl+O'
 p182
-aI145
+aI144
 aa(lp183
-V\u6587\u4ef6(F) -> \u5173\u95ed\u6807\u7b7e\u9875
+S'File -> Undo close tab'
 p184
-aS'Ctrl+W'
+aS'Ctrl+Shift+N'
 p185
-aI146
+aI145
 aa(lp186
-V\u6587\u4ef6(F) -> \u5173\u95ed\u6240\u6709\u6807\u7b7e\u9875
+S'File -> Close tab'
 p187
-aS'Ctrl+Shift+W'
+aS'Ctrl+W'
 p188
-aI147
+aI146
 aa(lp189
-V\u6587\u4ef6(F) -> \u91cd\u547d\u540d\u6807\u7b7e\u9875
+S'File -> Close all tabs'
 p190
+aS'Ctrl+Shift+W'
+p191
+aI147
+aa(lp192
+S'File -> Rename tab'
+p193
 aS''
 aI148
-aa(lp191
-V\u6587\u4ef6(F) -> \u4fdd\u5b58\u811a\u672c
-p192
-aS'Ctrl+S'
-p193
-aI149
 aa(lp194
-V\u6587\u4ef6(F) -> \u811a\u672c\u53e6\u5b58\u4e3a\u2026
+S'File -> Save script'
 p195
-aS'Ctrl+Shift+S'
+aS'Ctrl+S'
 p196
-aI150
+aI149
 aa(lp197
-V\u6587\u4ef6(F) -> \u91cd\u65b0\u8f7d\u5165\u811a\u672c
+S'File -> Save script as...'
 p198
+aS'Ctrl+Shift+S'
+p199
+aI150
+aa(lp200
+S'File -> Reload script'
+p201
 aS''
 aI151
-aa(lp199
-V\u6587\u4ef6(F) -> \u6253\u5f00\u811a\u672c\u76ee\u5f55
-p200
+aa(lp202
+S"File -> Open script's directory"
+p203
 aS''
 aI152
-aa(lp201
-V\u6587\u4ef6(F) -> \u5bfc\u51faHTML
-p202
+aa(lp204
+S'File -> Export HTML'
+p205
 aS''
 aI153
-aa(lp203
-V\u6587\u4ef6(F) -> \u6253\u5370\u811a\u672c(P) -> \u9875\u9762\u8bbe\u7f6e
-p204
+aa(lp206
+S'File -> Print script -> Page setup'
+p207
 aS''
 aI154
-aa(lp205
-V\u6587\u4ef6(F) -> \u6253\u5370\u811a\u672c(P) -> \u6253\u5370\u9875\u7709
-p206
+aa(lp208
+S'File -> Print script -> Print header'
+p209
 aS''
 aI155
-aa(lp207
-V\u6587\u4ef6(F) -> \u6253\u5370\u811a\u672c(P) -> \u6587\u672c\u6362\u884c
-p208
+aa(lp210
+S'File -> Print script -> Wrap text'
+p211
 aS''
 aI156
-aa(lp209
-V\u6587\u4ef6(F) -> \u6253\u5370\u811a\u672c(P) -> \u4f7f\u7528\u7f29\u653e
-p210
+aa(lp212
+S'File -> Print script -> Use zoom'
+p213
 aS''
 aI157
-aa(lp211
-V\u6587\u4ef6(F) -> \u6253\u5370\u811a\u672c(P) -> \u6253\u5370\u9884\u89c8
-p212
+aa(lp214
+S'File -> Print script -> Print preview'
+p215
 aS''
 aI158
-aa(lp213
-V\u6587\u4ef6(F) -> \u6253\u5370\u811a\u672c(P) -> \u6253\u5370(P)
-p214
-aS'Ctrl+P'
-p215
-aI159
 aa(lp216
-V\u6587\u4ef6(F) -> \u52a0\u8f7d\u4f1a\u8bdd\u2026
+S'File -> Print script -> Print'
 p217
-aS'Alt+O'
+aS'Ctrl+P'
 p218
-aI162
+aI159
 aa(lp219
-V\u6587\u4ef6(F) -> \u4fdd\u5b58\u4f1a\u8bdd\u2026
+S'File -> Load session...'
 p220
-aS'Alt+S'
+aS'Alt+O'
 p221
-aI163
+aI162
 aa(lp222
-V\u6587\u4ef6(F) -> \u5907\u4efd\u5f53\u524d\u4f1a\u8bdd
+S'File -> Save session...'
 p223
-aS'Alt+B'
+aS'Alt+S'
 p224
-aI164
+aI163
 aa(lp225
-V\u6587\u4ef6(F) -> \u4e0b\u4e00\u4e2a\u6807\u7b7e\u9875
+S'File -> Backup current session'
 p226
-aS'Ctrl+Tab'
+aS'Alt+B'
 p227
-aI166
+aI164
 aa(lp228
-V\u6587\u4ef6(F) -> \u4e0a\u4e00\u4e2a\u6807\u7b7e\u9875
+S'File -> Next tab'
 p229
-aS'Ctrl+Shift+Tab'
+aS'Ctrl+Tab'
 p230
-aI167
+aI166
 aa(lp231
-V\u6587\u4ef6(F) -> \u6253\u5f00\u8349\u7a3f\u7a97\u53e3
+S'File -> Previous tab'
 p232
-aS'Ctrl+Shift+P'
+aS'Ctrl+Shift+Tab'
 p233
-aI169
+aI167
 aa(lp234
-V\u6587\u4ef6(F) -> \u9000\u51fa(E)
+S'File -> Toggle scrap window'
 p235
-aS'Alt+X'
+aS'Ctrl+Shift+P'
 p236
-aI172
+aI169
 aa(lp237
-V\u7f16\u8f91(E) -> \u64a4\u6d88
+S'File -> Exit'
 p238
-aS'Ctrl+Z'
+aS'Alt+X'
 p239
-aI173
+aI172
 aa(lp240
-V\u7f16\u8f91(E) -> \u91cd\u505a
+S'Edit -> Undo'
 p241
-aS'Ctrl+Y'
+aS'Ctrl+Z'
 p242
-aI174
+aI173
 aa(lp243
-V\u7f16\u8f91(E) -> \u526a\u5207
+S'Edit -> Redo'
 p244
-aS'Ctrl+X'
+aS'Ctrl+Y'
 p245
-aI176
+aI174
 aa(lp246
-V\u7f16\u8f91(E) -> \u590d\u5236
+S'Edit -> Cut'
 p247
-aS'Ctrl+C'
+aS'Ctrl+X'
 p248
-aI177
+aI176
 aa(lp249
-V\u7f16\u8f91(E) -> \u7c98\u8d34
+S'Edit -> Copy'
 p250
-aS'Ctrl+V'
+aS'Ctrl+C'
 p251
-aI178
+aI177
 aa(lp252
-V\u7f16\u8f91(E) -> \u67e5\u627e\u2026
+S'Edit -> Paste'
 p253
-aS'Ctrl+F'
+aS'Ctrl+V'
 p254
-aI180
+aI178
 aa(lp255
-V\u7f16\u8f91(E) -> \u67e5\u627e\u4e0b\u4e00\u4e2a
+S'Edit -> Find...'
 p256
-aS'F3'
+aS'Ctrl+F'
 p257
-aI181
+aI180
 aa(lp258
-V\u7f16\u8f91(E) -> \u67e5\u627e\u4e0a\u4e00\u4e2a
+S'Edit -> Find next'
 p259
-aS'Shift+F3'
+aS'F3'
 p260
-aI182
+aI181
 aa(lp261
-V\u7f16\u8f91(E) -> \u66ff\u6362\u2026
+S'Edit -> Find previous'
 p262
-aS'Ctrl+H'
+aS'Shift+F3'
 p263
-aI183
+aI182
 aa(lp264
-V\u7f16\u8f91(E) -> \u66ff\u6362\u4e0b\u4e00\u4e2a
+S'Edit -> Replace...'
 p265
-aS'F4'
+aS'Ctrl+H'
 p266
-aI184
+aI183
 aa(lp267
-V\u7f16\u8f91(E) -> \u5168\u9009
+S'Edit -> Replace next'
 p268
-aS'Ctrl+A'
+aS'F4'
 p269
-aI186
+aI184
 aa(lp270
-V\u7f16\u8f91(E) -> \u63d2\u5165(I) -> \u63d2\u5165\u7247\u6bb5
+S'Edit -> Select All'
 p271
-aS'F7'
+aS'Ctrl+A'
 p272
-aI188
+aI186
 aa(lp273
-V\u7f16\u8f91(E) -> \u63d2\u5165(I) -> \u63d2\u5165\u6765\u6e90\u2026
+S'Edit -> Insert -> Insert snippet'
 p274
-aS'F9'
+aS'F7'
 p275
-aI190
+aI188
 aa(lp276
-V\u7f16\u8f91(E) -> \u63d2\u5165(I) -> \u63d2\u5165\u6587\u4ef6\u540d\u2026
+S'Edit -> Insert -> Insert source...'
 p277
-aS'Shift+F9'
+aS'F9'
 p278
-aI191
+aI190
 aa(lp279
-V\u7f16\u8f91(E) -> \u63d2\u5165(I) -> \u63d2\u5165\u63d2\u4ef6\u2026
+S'Edit -> Insert -> Insert filename...'
 p280
-aS'F10'
+aS'Shift+F9'
 p281
-aI192
+aI191
 aa(lp282
-V\u7f16\u8f91(E) -> \u63d2\u5165(I) -> \u63d2\u5165\u4fa7\u8fb9\u680f
+S'Edit -> Insert -> Insert plugin...'
 p283
-aS'F12'
+aS'F10'
 p284
-aI194
+aI192
 aa(lp285
-V\u7f16\u8f91(E) -> \u63d2\u5165(I) -> \u63d2\u5165\u4fa7\u8fb9\u680f\u5206\u9694\u7b26
+S'Edit -> Insert -> Insert user slider...'
 p286
-aS'Shift+F12'
+aS'F12'
 p287
-aI195
+aI194
 aa(lp288
-V\u7f16\u8f91(E) -> \u63d2\u5165(I) -> \u63d2\u5165\u5e27\u53f7 #
+S'Edit -> Insert -> Insert user slider separator'
 p289
-aS'F11'
+aS'Shift+F12'
 p290
-aI197
+aI195
 aa(lp291
-V\u7f16\u8f91(E) -> \u63d2\u5165(I) -> \u7528\u4e8e\u5207\u6362\u7684\u6807\u7b7e
+S'Edit -> Insert -> Insert frame #'
 p292
-aS'Ctrl+T'
+aS'F11'
 p293
-aI199
+aI197
 aa(lp294
-V\u7f16\u8f91(E) -> \u63d2\u5165(I) -> \u6e05\u9664\u6240\u6709\u6807\u7b7e
+S'Edit -> Insert -> Tag selection for toggling'
 p295
-aS'Ctrl+Shift+T'
+aS'Ctrl+T'
 p296
-aI200
+aI199
 aa(lp297
-V\u7f16\u8f91(E) -> \u7f29\u8fdb\u9009\u62e9\u90e8\u5206
+S'Edit -> Insert -> Clear all tags'
 p298
-aS'Tab'
+aS'Ctrl+Shift+T'
 p299
-aI203
+aI200
 aa(lp300
-V\u7f16\u8f91(E) -> \u53d6\u6d88\u7f29\u8fdb\u9009\u62e9\u90e8\u5206
+S'Edit -> Indent selection'
 p301
-aS'Shift+Tab'
+aS'Tab'
 p302
-aI204
+aI203
 aa(lp303
-V\u7f16\u8f91(E) -> \u5757\u6ce8\u91ca
+S'Edit -> Unindent selection'
 p304
-aS'Ctrl+Q'
+aS'Shift+Tab'
 p305
-aI205
+aI204
 aa(lp306
-V\u7f16\u8f91(E) -> \u6ce8\u91ca\u6837\u5f0f
+S'Edit -> Block comment'
 p307
-aS'Alt+Q'
+aS'Ctrl+Q'
 p308
-aI206
+aI205
 aa(lp309
-V\u7f16\u8f91(E) -> \u5c55\u5f00/\u6536\u8d77 \u5f53\u524d\u6298\u53e0
+S'Edit -> Style comment'
 p310
+aS'Alt+Q'
+p311
+aI206
+aa(lp312
+S'Edit -> Toggle current fold'
+p313
 aS''
 aI207
-aa(lp311
-V\u7f16\u8f91(E) -> \u5c55\u5f00/\u6536\u8d77 \u6240\u6709\u7684\u6298\u53e0
-p312
+aa(lp314
+S'Edit -> Toggle all folds'
+p315
 aS''
 aI208
-aa(lp313
-V\u7f16\u8f91(E) -> AviSynth\u51fd\u6570(A) -> \u81ea\u52a8\u5b8c\u6210
-p314
-aS'Ctrl+Space'
-p315
-aI210
 aa(lp316
-V\u7f16\u8f91(E) -> AviSynth\u51fd\u6570(A) -> \u81ea\u52a8\u5b8c\u6210\u5168\u90e8
+S'Edit -> AviSynth function -> Autocomplete'
 p317
-aS'Alt+Space'
+aS'Ctrl+Space'
 p318
-aI211
+aI210
 aa(lp319
-V\u7f16\u8f91(E) -> AviSynth\u51fd\u6570(A) -> \u81ea\u52a8\u5b8c\u6210\u53c2\u6570/\u6587\u4ef6\u540d
+S'Edit -> AviSynth function -> Autocomplete all'
 p320
-aS'Ctrl+Alt+Space'
+aS'Alt+Space'
 p321
-aI212
+aI211
 aa(lp322
-V\u7f16\u8f91(E) -> AviSynth\u51fd\u6570(A) -> \u663e\u793a\u63d0\u793a
+S'Edit -> AviSynth function -> Autocomplete parameter/filename'
 p323
-aS'Ctrl+Shift+Space'
+aS'Ctrl+Alt+Space'
 p324
-aI213
+aI212
 aa(lp325
-V\u7f16\u8f91(E) -> AviSynth\u51fd\u6570(A) -> \u663e\u793a\u51fd\u6570\u5b9a\u4e49
+S'Edit -> AviSynth function -> Show calltip'
 p326
-aS'Ctrl+Shift+D'
+aS'Ctrl+Shift+Space'
 p327
-aI214
+aI213
 aa(lp328
-V\u7f16\u8f91(E) -> AviSynth\u51fd\u6570(A) -> \u6ee4\u955c\u5e2e\u52a9\u6587\u4ef6
+S'Edit -> AviSynth function -> Show function definition'
 p329
-aS'Shift+F1'
+aS'Ctrl+Shift+D'
 p330
-aI215
+aI214
 aa(lp331
-V\u7f16\u8f91(E) -> \u5176\u5b83(M) -> \u4e0a\u79fb\u884c
+S'Edit -> AviSynth function -> Filter help file'
 p332
-aS'Ctrl+Shift+Up'
+aS'Shift+F1'
 p333
-aI218
+aI215
 aa(lp334
-V\u7f16\u8f91(E) -> \u5176\u5b83(M) -> \u4e0b\u79fb\u884c
+S'Edit -> Miscellaneous -> Move line up'
 p335
-aS'Ctrl+Shift+Down'
+aS'Ctrl+Shift+Up'
 p336
-aI219
+aI218
 aa(lp337
-V\u7f16\u8f91(E) -> \u5176\u5b83(M) -> \u590d\u5236\u7eaf\u811a\u672c\u5230\u526a\u8d34\u677f
+S'Edit -> Miscellaneous -> Move line down'
 p338
-aS'Ctrl+Shift+C'
+aS'Ctrl+Shift+Down'
 p339
-aI221
+aI219
 aa(lp340
-V\u7f16\u8f91(E) -> \u5176\u5b83(M) -> \u590d\u5236AviSynth\u9519\u8bef\u4fe1\u606f\u5230\u526a\u8d34\u677f
+S'Edit -> Miscellaneous -> Copy unmarked script to clipboard'
 p341
+aS'Ctrl+Shift+C'
+p342
+aI221
+aa(lp343
+S'Edit -> Miscellaneous -> Copy avisynth error to clipboard'
+p344
 aS''
 aI222
-aa(lp342
-V\u89c6\u9891(V) -> \u6dfb\u52a0/\u5220\u9664 \u4e66\u7b7e
-p343
-aS'Ctrl+B'
-p344
-aI275
 aa(lp345
-V\u89c6\u9891(V) -> \u6e05\u9664\u6240\u6709\u4e66\u7b7e
+S'Video -> Add/Remove bookmark'
 p346
+aS'Ctrl+B'
+p347
+aI275
+aa(lp348
+S'Video -> Clear all bookmarks'
+p349
 aS''
 aI276
-aa(lp347
-V\u89c6\u9891(V) -> \u5df2\u547d\u540d\u4e66\u7b7e(B) -> \u79fb\u52a8\u5df2\u547d\u540d\u4e66\u7b7e
-p348
-aS'Ctrl+M'
-p349
-aI277
 aa(lp350
-V\u89c6\u9891(V) -> \u5df2\u547d\u540d\u4e66\u7b7e(B) -> \u6062\u590d\u5386\u53f2\u540d\u79f0
+S'Video -> Titled bookmarks -> Move titled bookmark'
 p351
+aS'Ctrl+M'
+p352
+aI277
+aa(lp353
+S'Video -> Titled bookmarks -> Restore historic titles'
+p354
 aS''
 aI278
-aa(lp352
-V\u89c6\u9891(V) -> \u5df2\u547d\u540d\u4e66\u7b7e(B) -> \u6e05\u9664\u5386\u53f2\u547d\u540d
-p353
+aa(lp355
+S'Video -> Titled bookmarks -> Clear historic titles'
+p356
 aS''
 aI279
-aa(lp354
-V\u89c6\u9891(V) -> \u5df2\u547d\u540d\u4e66\u7b7e(B) -> \u8bbe\u7f6e\u540d\u79f0\uff08\u81ea\u52a8\uff09
-p355
+aa(lp357
+S'Video -> Titled bookmarks -> Set title (auto)'
+p358
 aS''
 aI280
-aa(lp356
-V\u89c6\u9891(V) -> \u5df2\u547d\u540d\u4e66\u7b7e(B) -> \u8bbe\u7f6e\u540d\u79f0\uff08\u624b\u52a8\uff09
-p357
+aa(lp359
+S'Video -> Titled bookmarks -> Set title (manual)'
+p360
 aS''
 aI281
-aa(lp358
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> \u65e0
-p359
+aa(lp361
+S'Video -> Add tab to group -> None'
+p362
 aS''
 aI284
-aa(lp360
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> 1
-p361
+aa(lp363
+S'Video -> Add tab to group -> 1'
+p364
 aS''
 aI285
-aa(lp362
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> 2
-p363
+aa(lp365
+S'Video -> Add tab to group -> 2'
+p366
 aS''
 aI286
-aa(lp364
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> 3
-p365
+aa(lp367
+S'Video -> Add tab to group -> 3'
+p368
 aS''
 aI287
-aa(lp366
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> 4
-p367
+aa(lp369
+S'Video -> Add tab to group -> 4'
+p370
 aS''
 aI288
-aa(lp368
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> 5
-p369
+aa(lp371
+S'Video -> Add tab to group -> 5'
+p372
 aS''
 aI289
-aa(lp370
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> 6
-p371
+aa(lp373
+S'Video -> Add tab to group -> 6'
+p374
 aS''
 aI290
-aa(lp372
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> 7
-p373
+aa(lp375
+S'Video -> Add tab to group -> 7'
+p376
 aS''
 aI291
-aa(lp374
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> 8
-p375
+aa(lp377
+S'Video -> Add tab to group -> 8'
+p378
 aS''
 aI292
-aa(lp376
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> \u6e05\u9664\u5f53\u524d\u6807\u7b7e\u7ec4
-p377
+aa(lp379
+S'Video -> Add tab to group -> Clear current tab group'
+p380
 aS''
 aI294
-aa(lp378
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> \u6e05\u9664\u6240\u6709\u6807\u7b7e\u7ec4
-p379
+aa(lp381
+S'Video -> Add tab to group -> Clear all tab groups'
+p382
 aS''
 aI295
-aa(lp380
-V\u89c6\u9891(V) -> \u6dfb\u52a0\u6807\u7b7e\u9875\u81f3\u6807\u7b7e\u7ec4 -> \u4f7f\u7528\u504f\u79fb
-p381
+aa(lp383
+S'Video -> Add tab to group -> Apply offsets'
+p384
 aS''
 aI297
-aa(lp382
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u4e0b\u4e00\u4e2a\u4e66\u7b7e
-p383
-aS'F2'
-p384
-aI300
 aa(lp385
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u4e0a\u4e00\u4e2a\u4e66\u7b7e
+S'Video -> Navigate -> Next bookmark'
 p386
-aS'Shift+F2'
+aS'F2'
 p387
-aI301
+aI300
 aa(lp388
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u524d\u8fdb\u4e00\u5e27
+S'Video -> Navigate -> Previous bookmark'
 p389
-aS'Right'
+aS'Shift+F2'
 p390
-aI303
+aI301
 aa(lp391
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u540e\u9000\u4e00\u5e27
+S'Video -> Navigate -> Forward 1 frame'
 p392
-aS'Left'
+aS'Right'
 p393
-aI304
+aI303
 aa(lp394
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u524d\u8fdb\u4e00\u79d2
+S'Video -> Navigate -> Backward 1 frame'
 p395
-aS'Down'
+aS'Left'
 p396
-aI305
+aI304
 aa(lp397
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u540e\u9000\u4e00\u79d2
+S'Video -> Navigate -> Forward 1 second'
 p398
-aS'Up'
+aS'Down'
 p399
-aI306
+aI305
 aa(lp400
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u524d\u8fdb\u4e00\u5206\u949f
+S'Video -> Navigate -> Backward 1 second'
 p401
-aS'PgDn'
+aS'Up'
 p402
-aI307
+aI306
 aa(lp403
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u540e\u9000\u4e00\u5206\u949f
+S'Video -> Navigate -> Forward 1 minute'
 p404
-aS'PgUp'
+aS'PgDn'
 p405
-aI308
+aI307
 aa(lp406
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u524d\u8fdb\u201cx\u201d\u5355\u4f4d
+S'Video -> Navigate -> Backward 1 minute'
 p407
+aS'PgUp'
+p408
+aI308
+aa(lp409
+S'Video -> Navigate -> Forward x units'
+p410
 aS''
 aI310
-aa(lp408
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u540e\u9000\u201cx\u201d\u5355\u4f4d
-p409
+aa(lp411
+S'Video -> Navigate -> Backwards x units'
+p412
 aS''
 aI311
-aa(lp410
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u8f6c\u81f3\u9996\u5e27
-p411
+aa(lp413
+S'Video -> Navigate -> Go to first frame'
+p414
 aS''
 aI313
-aa(lp412
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u8f6c\u81f3\u5c3e\u5e27
-p413
+aa(lp415
+S'Video -> Navigate -> Go to last frame'
+p416
 aS''
 aI314
-aa(lp414
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u4e0a\u4e00\u663e\u793a\u5e27
-p415
-aS'F8'
-p416
-aI316
 aa(lp417
-V\u89c6\u9891(V) -> \u5bfc\u822a(N) -> \u8df3\u8f6c\u81f3\u5e27\u2026
+S'Video -> Navigate -> Last scrolled frame'
 p418
-aS'Ctrl+G'
+aS'F8'
 p419
-aI318
+aI316
 aa(lp420
-V\u89c6\u9891(V) -> \u64ad\u653e\u89c6\u9891(P) -> \u64ad\u653e/\u6682\u505c \u89c6\u9891
+S'Video -> Navigate -> Go to frame...'
 p421
-aS'Ctrl+R'
+aS'Ctrl+G'
 p422
-aI320
+aI318
 aa(lp423
-V\u89c6\u9891(V) -> \u64ad\u653e\u89c6\u9891(P) -> \u500d\u901f
+S'Video -> Play video -> Play/pause video'
 p424
-aS'Shift+Numpad +'
+aS'Ctrl+R'
 p425
-aI322
+aI320
 aa(lp426
-V\u89c6\u9891(V) -> \u64ad\u653e\u89c6\u9891(P) -> \u534a\u901f
+S'Video -> Play video -> Increment speed'
 p427
-aS'Shift+Numpad -'
+aS'Shift+Numpad +'
 p428
-aI323
+aI322
 aa(lp429
-V\u89c6\u9891(V) -> \u64ad\u653e\u89c6\u9891(P) -> \u6807\u51c6\u901f\u5ea6
+S'Video -> Play video -> Decrement speed'
 p430
-aS'Shift+Numpad /'
+aS'Shift+Numpad -'
 p431
-aI324
+aI323
 aa(lp432
-V\u89c6\u9891(V) -> \u64ad\u653e\u89c6\u9891(P) -> \u6700\u5927\u901f\u5ea6
+S'Video -> Play video -> Normal speed'
 p433
-aS'Shift+Numpad *'
+aS'Shift+Numpad /'
 p434
-aI325
+aI324
 aa(lp435
-V\u89c6\u9891(V) -> \u64ad\u653e\u89c6\u9891(P) -> \u4e22\u5e27
+S'Video -> Play video -> Maximum speed'
 p436
-aS'Shift+Numpad .'
+aS'Shift+Numpad *'
 p437
-aI327
+aI325
 aa(lp438
-V\u89c6\u9891(V) -> Crop\u753b\u9762\u88c1\u526a\u5668(C)
+S'Video -> Play video -> Drop frames'
 p439
+aS'Shift+Numpad .'
+p440
+aI327
+aa(lp441
+S'Video -> Crop editor...'
+p442
 aS''
 aI330
-aa(lp440
-V\u89c6\u9891(V) -> Trim\u8303\u56f4\u9009\u62e9\u5668(T) -> \u663e\u793aTrim\u8303\u56f4\u9009\u62e9\u5668
-p441
+aa(lp443
+S'Video -> Trim selection editor -> Show trim selection editor'
+p444
 aS''
 aI331
-aa(lp442
-V\u89c6\u9891(V) -> Trim\u8303\u56f4\u9009\u62e9\u5668(T) -> \u8bbe\u7f6e\u8303\u56f4\u8d77\u70b9
-p443
-aS'Home'
-p444
-aI333
 aa(lp445
-V\u89c6\u9891(V) -> Trim\u8303\u56f4\u9009\u62e9\u5668(T) -> \u8bbe\u7f6e\u8303\u56f4\u7ec8\u70b9
+S'Video -> Trim selection editor -> Set selection startpoint'
 p446
-aS'End'
+aS'Home'
 p447
-aI334
+aI333
 aa(lp448
-V\u89c6\u9891(V) -> \u7f29\u653e -> 25%
+S'Video -> Trim selection editor -> Set selection endpoint'
 p449
+aS'End'
+p450
+aI334
+aa(lp451
+S'Video -> Zoom -> 25%'
+p452
 aS''
 aI337
-aa(lp450
-V\u89c6\u9891(V) -> \u7f29\u653e -> 50%
-p451
+aa(lp453
+S'Video -> Zoom -> 50%'
+p454
 aS''
 aI338
-aa(lp452
-V\u89c6\u9891(V) -> \u7f29\u653e -> 100%\uff08\u6807\u51c6\uff09
-p453
-aS'Numpad /'
-p454
-aI339
 aa(lp455
-V\u89c6\u9891(V) -> \u7f29\u653e -> 200%
+S'Video -> Zoom -> 100% (normal)'
 p456
+aS'Numpad /'
+p457
+aI339
+aa(lp458
+S'Video -> Zoom -> 200%'
+p459
 aS''
 aI340
-aa(lp457
-V\u89c6\u9891(V) -> \u7f29\u653e -> 300%
-p458
+aa(lp460
+S'Video -> Zoom -> 300%'
+p461
 aS''
 aI341
-aa(lp459
-V\u89c6\u9891(V) -> \u7f29\u653e -> 400%
-p460
+aa(lp462
+S'Video -> Zoom -> 400%'
+p463
 aS''
 aI342
-aa(lp461
-V\u89c6\u9891(V) -> \u7f29\u653e -> \u9002\u5e94\u7a97\u53e3
-p462
+aa(lp464
+S'Video -> Zoom -> Fill window'
+p465
 aS''
 aI343
-aa(lp463
-V\u89c6\u9891(V) -> \u7f29\u653e -> \u9002\u5e94\u9884\u89c8\u7a97\u53e3
-p464
+aa(lp466
+S'Video -> Zoom -> Fit inside window'
+p467
 aS''
 aI344
-aa(lp465
-V\u89c6\u9891(V) -> \u7f29\u653e -> \u653e\u5927
-p466
-aS'Numpad +'
-p467
-aI346
 aa(lp468
-V\u89c6\u9891(V) -> \u7f29\u653e -> \u7f29\u5c0f
+S'Video -> Zoom -> Zoom in'
 p469
-aS'Numpad -'
+aS'Numpad +'
 p470
-aI347
+aI346
 aa(lp471
-V\u89c6\u9891(V) -> \u7ffb\u8f6c(F) -> \u5782\u76f4
+S'Video -> Zoom -> Zoom out'
 p472
+aS'Numpad -'
+p473
+aI347
+aa(lp474
+S'Video -> Flip -> Vertically'
+p475
 aS''
 aI349
-aa(lp473
-V\u89c6\u9891(V) -> \u7ffb\u8f6c(F) -> \u6c34\u5e73
-p474
+aa(lp476
+S'Video -> Flip -> Horizontally'
+p477
 aS''
 aI350
-aa(lp475
-V\u89c6\u9891(V) -> YUV -> RGB -> \u4ea4\u6362UV
-p476
+aa(lp478
+S'Video -> YUV -> RGB -> Swap UV'
+p479
 aS''
 aI352
-aa(lp477
-V\u89c6\u9891(V) -> YUV -> RGB -> \u5206\u8fa8\u7387
-p478
+aa(lp480
+S'Video -> YUV -> RGB -> Resolution-based'
+p481
 aS''
 aI354
-aa(lp479
-V\u89c6\u9891(V) -> YUV -> RGB -> BT.709
-p480
+aa(lp482
+S'Video -> YUV -> RGB -> BT.709'
+p483
 aS''
 aI355
-aa(lp481
-V\u89c6\u9891(V) -> YUV -> RGB -> BT.601
-p482
+aa(lp484
+S'Video -> YUV -> RGB -> BT.601'
+p485
 aS''
 aI356
-aa(lp483
-V\u89c6\u9891(V) -> YUV -> RGB -> TV\u7ea7\u522b
-p484
+aa(lp486
+S'Video -> YUV -> RGB -> TV levels'
+p487
 aS''
 aI358
-aa(lp485
-V\u89c6\u9891(V) -> YUV -> RGB -> PC\u7ea7\u522b
-p486
+aa(lp488
+S'Video -> YUV -> RGB -> PC levels'
+p489
 aS''
 aI359
-aa(lp487
-V\u89c6\u9891(V) -> YUV -> RGB -> \u9010\u884c\u626b\u63cf(P)
-p488
+aa(lp490
+S'Video -> YUV -> RGB -> Progressive'
+p491
 aS''
 aI361
-aa(lp489
-V\u89c6\u9891(V) -> YUV -> RGB -> \u9694\u884c\u626b\u63cf(I)
-p490
+aa(lp492
+S'Video -> YUV -> RGB -> Interlaced'
+p493
 aS''
 aI362
-aa(lp491
-V\u89c6\u9891(V) -> \u4fdd\u6301\u53d8\u91cf\u5237\u65b0
-p492
+aa(lp494
+S'Video -> Keep variables on refreshing'
+p495
 aS''
 aI364
-aa(lp493
-V\u89c6\u9891(V) -> \u56fe\u7247\u53e6\u5b58\u4e3a\u2026
-p494
+aa(lp496
+S'Video -> Save image as...'
+p497
 aS''
 aI366
-aa(lp495
-V\u89c6\u9891(V) -> \u5feb\u901f\u4fdd\u5b58\u56fe\u7247
-p496
+aa(lp498
+S'Video -> Quick save image'
+p499
 aS''
 aI367
-aa(lp497
-V\u89c6\u9891(V) -> \u590d\u5236\u56fe\u50cf\u5230\u526a\u8d34\u677f
-p498
+aa(lp500
+S'Video -> Copy image to clipboard'
+p501
 aS''
 aI368
-aa(lp499
-V\u89c6\u9891(V) -> \u5237\u65b0\u9884\u89c8
-p500
-aS'F5'
-p501
-aI370
 aa(lp502
-V\u89c6\u9891(V) -> \u663e\u793a/\u9690\u85cf \u9884\u89c8
+S'Video -> Refresh preview'
 p503
-aS'Shift+F5'
+aS'F5'
 p504
-aI371
+aI370
 aa(lp505
-V\u89c6\u9891(V) -> \u5207\u6362\u9884\u89c8\u4f4d\u7f6e
+S'Video -> Show/Hide the preview'
 p506
+aS'Shift+F5'
+p507
+aI371
+aa(lp508
+S'Video -> Toggle preview placement'
+p509
 aS''
 aI372
-aa(lp507
-V\u89c6\u9891(V) -> \u4ece\u5185\u5b58\u4e2d\u91ca\u653e\u6240\u6709\u89c6\u9891
-p508
+aa(lp510
+S'Video -> Release all videos from memory'
+p511
 aS''
 aI373
-aa(lp509
-V\u89c6\u9891(V) -> \u5207\u6362\u7126\u70b9 \u89c6\u9891/\u6587\u672c
-p510
-aS'Escape'
-p511
-aI374
 aa(lp512
-V\u89c6\u9891(V) -> \u663e\u793a/\u9690\u85cf \u4fa7\u8fb9\u680f
+S'Video -> Switch video/text focus'
 p513
-aS'Alt+F5'
+aS'Escape'
 p514
-aI375
+aI374
 aa(lp515
-V\u89c6\u9891(V) -> \u8fd0\u884cpass\u5206\u6790
+S'Video -> Toggle the slider sidebar'
 p516
+aS'Alt+F5'
+p517
+aI375
+aa(lp518
+S'Video -> Run analysis pass'
+p519
 aS''
 aI376
-aa(lp517
-V\u89c6\u9891(V) -> \u5916\u90e8\u64ad\u653e\u5668
-p518
-aS'F6'
-p519
-aI377
 aa(lp520
-V\u89c6\u9891(V) -> \u89c6\u9891\u4fe1\u606f
+S'Video -> External player'
 p521
+aS'F6'
+p522
+aI377
+aa(lp523
+S'Video -> Video information'
+p524
 aS''
 aI379
-aa(lp522
-V\u9009\u9879(O) -> \u7f6e\u4e8e\u9876\u5c42
-p523
+aa(lp525
+S'Options -> Always on top'
+p526
 aS''
 aI485
-aa(lp524
-V\u9009\u9879(O) -> \u89c6\u9891\u9884\u89c8\u7f6e\u4e8e\u9876\u5c42
-p525
+aa(lp527
+S'Options -> Video preview always on top'
+p528
 aS''
 aI486
-aa(lp526
-V\u9009\u9879(O) -> \u5173\u95ed\u89c6\u9891\u9884\u89c8
-p527
+aa(lp529
+S'Options -> Disable video preview'
+p530
 aS''
 aI487
-aa(lp528
-V\u9009\u9879(O) -> \u8ba9AvsP\u5173\u8054.avs\u6587\u4ef6
-p529
+aa(lp531
+S'Options -> Associate .avs files with AvsP'
+p532
 aS''
 aI489
-aa(lp530
-V\u9009\u9879(O) -> AviSynth\u51fd\u6570\u5b9a\u4e49\u2026
-p531
+aa(lp533
+S'Options -> AviSynth function definition...'
+p534
 aS''
 aI491
-aa(lp532
-V\u9009\u9879(O) -> \u5b57\u4f53\u548c\u989c\u8272\u2026
-p533
+aa(lp535
+S'Options -> Fonts and colors...'
+p536
 aS''
 aI492
-aa(lp534
-V\u9009\u9879(O) -> \u6269\u5c55\u6a21\u677f\u2026
-p535
+aa(lp537
+S'Options -> Extension templates...'
+p538
 aS''
 aI493
-aa(lp536
-V\u9009\u9879(O) -> \u7247\u6bb5\u2026
-p537
+aa(lp539
+S'Options -> Snippets...'
+p540
 aS''
 aI494
-aa(lp538
-V\u9009\u9879(O) -> \u5feb\u6377\u952e\u2026
-p539
+aa(lp541
+S'Options -> Keyboard shortcuts...'
+p542
 aS''
 aI496
-aa(lp540
-V\u9009\u9879(O) -> \u7a0b\u5e8f\u8bbe\u7f6e\u2026
-p541
+aa(lp543
+S'Options -> Program settings...'
+p544
 aS''
 aI497
-aa(lp542
-V\u5e2e\u52a9(H) -> \u89c6\u9891\u6559\u7a0b
-p543
+aa(lp545
+S'Help -> Animated tutorial'
+p546
 aS''
 aI498
-aa(lp544
-V\u5e2e\u52a9(H) -> \u6587\u672c\u7279\u5f81
-p545
+aa(lp547
+S'Help -> Text features'
+p548
 aS''
 aI500
-aa(lp546
-V\u5e2e\u52a9(H) -> \u89c6\u9891\u529f\u80fd
-p547
+aa(lp549
+S'Help -> Video features'
+p550
 aS''
 aI501
-aa(lp548
-V\u5e2e\u52a9(H) -> \u4fa7\u8fb9\u680f
-p549
+aa(lp551
+S'Help -> User sliders'
+p552
 aS''
 aI502
-aa(lp550
-V\u5e2e\u52a9(H) -> \u5b8f
-p551
+aa(lp553
+S'Help -> Macros'
+p554
 aS''
 aI503
-aa(lp552
-V\u5e2e\u52a9(H) -> AviSynth \u5e2e\u52a9
-p553
-aS'F1'
-p554
-aI505
 aa(lp555
-V\u5e2e\u52a9(H) -> \u6253\u5f00AviSynth\u63d2\u4ef6\u6587\u4ef6\u5939
+S'Help -> Avisynth help'
 p556
+aS'F1'
+p557
+aI505
+aa(lp558
+S'Help -> Open Avisynth plugins folder'
+p559
 aS''
 aI506
-aa(lp557
-V\u5e2e\u52a9(H) -> \u66f4\u65b0\u65e5\u5fd7
-p558
+aa(lp560
+S'Help -> Changelog'
+p561
 aS''
 aI508
-aa(lp559
-V\u5e2e\u52a9(H) -> \u5173\u4e8eAvsPmod
-p560
+aa(lp562
+S'Help -> About AvsPmod'
+p563
 aS''
 aI509
-aa(lp561
-V\u5de5\u5177(T) -> Resize\u8ba1\u7b97\u5668\u2026
-p562
+aa(lp564
+S'Tools -> Resize calculator...'
+p565
 aS''
 aI510
-aa(lp563
-V\u5de5\u5177(T) -> \u811a\u672c\u7f16\u7801\u5668\uff08\u547d\u4ee4\u884c\uff09
-p564
+aa(lp566
+S'Tools -> Script encoder (CLI)'
+p567
 aS''
 aI511
-aa(lp565
-V\u5de5\u5177(T) -> \u811a\u672c\u7f16\u7801\u5668\uff08VFW\uff09
-p566
+aa(lp568
+S'Tools -> Script encoder (VFW)'
+p569
 aS''
 aI512
-aa(lp567
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> PAL DV 4:3 - 59:54
-p568
+aa(lp570
+VMacros -> Example (Resize) -> PAL DV 4:3 - 59:54
+p571
 aS''
 aI514
-aa(lp569
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> PAL DV 16:9 - 118:81
-p570
+aa(lp572
+VMacros -> Example (Resize) -> PAL DV 16:9 - 118:81
+p573
 aS''
 aI515
-aa(lp571
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> PAL DVD 4:3 - 16:15
-p572
+aa(lp574
+VMacros -> Example (Resize) -> PAL DVD 4:3 - 16:15
+p575
 aS''
 aI516
-aa(lp573
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> PAL DVD 16:9 - 64:45
-p574
+aa(lp576
+VMacros -> Example (Resize) -> PAL DVD 16:9 - 64:45
+p577
 aS''
 aI517
-aa(lp575
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> NTSC DV 4:3 - 10:11
-p576
+aa(lp578
+VMacros -> Example (Resize) -> NTSC DV 4:3 - 10:11
+p579
 aS''
 aI518
-aa(lp577
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> NTSC DV 16:9 - 40:33
-p578
+aa(lp580
+VMacros -> Example (Resize) -> NTSC DV 16:9 - 40:33
+p581
 aS''
 aI519
-aa(lp579
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> NTSC DVD 4:3 - 8:9
-p580
+aa(lp582
+VMacros -> Example (Resize) -> NTSC DVD 4:3 - 8:9
+p583
 aS''
 aI520
-aa(lp581
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> NTSC DVD 16:9 - 32:27
-p582
+aa(lp584
+VMacros -> Example (Resize) -> NTSC DVD 16:9 - 32:27
+p585
 aS''
 aI521
-aa(lp583
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> \u81ea\u5b9a\u4e49
-p584
+aa(lp586
+VMacros -> Example (Resize) -> Customized
+p587
 aS''
 aI522
-aa(lp585
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> \u53cc\u7ebf\u6027
-p586
+aa(lp588
+VMacros -> Example (Resize) -> bilinear
+p589
 aS''
 aI523
-aa(lp587
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> \u53cc\u4e09\u6b21\u65b9
-p588
+aa(lp590
+VMacros -> Example (Resize) -> bicubic
+p591
 aS''
 aI524
-aa(lp589
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> Lanczos
-p590
+aa(lp592
+VMacros -> Example (Resize) -> lanczos
+p593
 aS''
 aI525
-aa(lp591
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> Spline36
-p592
+aa(lp594
+VMacros -> Example (Resize) -> spline36
+p595
 aS''
 aI526
-aa(lp593
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> \u521b\u5efa\u65b0\u6807\u7b7e\u9875
-p594
+aa(lp596
+VMacros -> Example (Resize) -> create new tab
+p597
 aS''
 aI527
-aa(lp595
-V\u5b8f(M) -> \u6f14\u793a(Resize) -> \u5f3a\u5236 mod 2
-p596
+aa(lp598
+VMacros -> Example (Resize) -> force mod 2
+p599
 aS''
 aI528
-aa(lp597
-V\u5b8f(M) -> \u6f14\u793a -> \u6a21\u677f\u6f14\u793a
-p598
+aa(lp600
+VMacros -> Examples -> Template example
+p601
 aS''
 aI529
-aa(lp599
-V\u5b8f(M) -> \u6f14\u793a -> \u6279\u91cf\u6f14\u793a
-p600
+aa(lp602
+VMacros -> Examples -> Batch example
+p603
 aS''
 aI530
-aa(lp601
-V\u5b8f(M) -> \u6f14\u793a -> \u56fe\u50cf\u5904\u7406
-p602
+aa(lp604
+VMacros -> Examples -> Image processing
+p605
 aS''
 aI531
-aa(lp603
-V\u5b8f(M) -> \u6f14\u793a -> \u624b\u52a8Telecide
-p604
+aa(lp606
+VMacros -> Examples -> Manual Telecide
+p607
 aS''
 aI532
-aa(lp605
-V\u5b8f(M) -> \u6f14\u793a -> \u4e8c\u6b21\u9884\u89c8
-p606
+aa(lp608
+VMacros -> Examples -> Secondary preview
+p609
 aS''
 aI533
-aa(lp607
-V\u5b8f(M) -> \u6f14\u793a -> \u7f16\u7801\u6f14\u793a
-p608
+aa(lp610
+VMacros -> Examples -> Encoding example
+p611
 aS''
 aI534
-aa(lp609
-V\u5b8f(M) -> \u6f14\u793a -> \u7f16\u7801\u6f14\u793a2
-p610
+aa(lp612
+VMacros -> Examples -> Encoding example 2
+p613
 aS''
 aI535
-aa(lp611
-V\u5b8f(M) -> \u6f14\u793a -> \u4f18\u5316\u4fa7\u8fb9\u680f
-p612
+aa(lp614
+VMacros -> Examples -> Optimize Sliders
+p615
 aS''
 aI536
-aa(lp613
-V\u5b8f(M) -> \u6309\u95f4\u9694\u6dfb\u52a0\u4e66\u7b7e
-p614
+aa(lp616
+VMacros -> Bookmarks at Intervals
+p617
 aS''
 aI537
-aa(lp615
-V\u5b8f(M) -> \u4e66\u7b7e\u4fdd\u5b58\u4e3a\u7ae0\u8282
-p616
+aa(lp618
+VMacros -> Bookmarks to Chapter
+p619
 aS''
 aI538
-aa(lp617
-V\u5b8f(M) -> \u4ece\u4e66\u7b7e\u5bfc\u5165\u7279\u5b9a\u8bfb\u53d6\u5668
-p618
+aa(lp620
+VMacros -> ConditionalReader file from bookmarks
+p621
 aS''
 aI539
-aa(lp619
-V\u5b8f(M) -> \u5220\u9664\u5e27
-p620
+aa(lp622
+VMacros -> DeleteFrame
+p623
 aS''
 aI540
-aa(lp621
-V\u5b8f(M) -> \u91cd\u590d\u5e27
-p622
+aa(lp624
+VMacros -> DuplicateFrame
+p625
 aS''
 aI541
-aa(lp623
-V\u5b8f(M) -> \u4ece\u6587\u4ef6\u4e2d\u5bfc\u5165\u4e66\u7b7e
-p624
+aa(lp626
+VMacros -> Import bookmarks from file
+p627
 aS''
 aI542
-aa(lp625
-V\u5b8f(M) -> \u4ece\u5f53\u524d\u5e27\u5f00\u59cb\u9884\u89c8
-p626
+aa(lp628
+VMacros -> Preview from current point
+p629
 aS''
 aI543
-aa(lp627
-V\u5b8f(M) -> \u968f\u673a\u526a\u8f91\u987a\u5e8f
-p628
+aa(lp630
+VMacros -> Random Clip Order
+p631
 aS''
 aI544
-aa(lp629
-V\u5b8f(M) -> \u4fdd\u5b58\u56fe\u50cf\u5e8f\u5217
-p630
+aa(lp632
+VMacros -> Save Image Sequence
+p633
 aS''
 aI545
-aa(lp631
-V\u5b8f(M) -> \u6309\u5e27\u5e73\u79fb\u4e66\u7b7e
-p632
+aa(lp634
+VMacros -> Shift Bookmarks by frames
+p635
 aS''
 aI546
-aa(lp633
-V\u5b8f(M) -> macros_readme.txt
-p634
+aa(lp636
+S'Macros -> macros_readme.txt'
+p637
 aS''
 aI555
-aa(lp635
-V\u5b8f(M) -> \u6253\u5f00\u5b8f\u6587\u4ef6\u5939
-p636
+aa(lp638
+S'Macros -> Open macros folder'
+p639
 aS''
 aI556
 aasS'enableframepertab_same'
-p637
+p640
 I01
 sS'startupsession'
-p638
-I01
-sS'imagenameformat'
-p639
-S'%s%06d'
-p640
-sS'promptexitsave'
 p641
 I01
-sS'autocompletepluginnames'
+sS'imagenameformat'
 p642
-(dp643
-S'nnedi3_nnedi3'
+g150
+sS'promptexitsave'
+p643
+I01
+sS'autocompletepluginnames'
 p644
-I0
-sS'ssiq_ssiq'
-p645
-I0
-sS'directshowsource_directshowsource'
+(dp645
+S'nnedi3_nnedi3'
 p646
 I0
-sS'libavxffms2_ffpp'
+sS'ssiq_ssiq'
 p647
 I0
-sS'tisophote_tisophote'
+sS'directshowsource_directshowsource'
 p648
 I0
-sS'mt_masktools_mt_edge'
+sS'libavxffms2_ffpp'
 p649
 I0
-sS'sangnom_sangnom'
+sS'tisophote_tisophote'
 p650
 I0
-sS'deen_deen'
+sS'sangnom_sangnom'
 p651
 I0
-sS'smoothadjust_smoothcurve'
+sS'deen_deen'
 p652
 I0
-sS'removegrain_removegrain'
+sS'smoothadjust_smoothcustom'
 p653
 I0
-sS'vaguedenoiser_vaguedenoiser'
+sS'smoothadjust_smoothcurve'
 p654
 I0
-sS'smoothadjust_smoothlevels16'
+sS'vaguedenoiser_vaguedenoiser'
 p655
 I0
-sS'rsharpens_rsharpen'
+sS'smoothadjust_smoothlevels16'
 p656
 I0
-sS'dustv5_pixiedust'
+sS'ffms2_ffsetloglevel'
 p657
 I0
-sS'autogain_autogain'
+sS'dustv5_pixiedust'
 p658
 I0
-sS'repairsse3_temporalrepair'
+sS'autogain_autogain'
 p659
 I0
-sS'nicaudio_rawavsource'
+sS'bifrost_bifrost'
 p660
 I0
-sS'mt_masktools_mt_circle'
+sS'decomb_telecide'
 p661
 I0
-sS'removegrains_forwardclense'
+sS'ffms2_ffgetloglevel'
 p662
 I0
-sS'dither_dither_merge16'
+sS'edeen_edeen'
 p663
 I0
-sS'rsharpen_motionsharpen'
+sS'tivtc_requestlinear'
 p664
 I0
-sS'ffms2_ffgetloglevel'
+sS'degrainmedian_degrainmedian'
 p665
 I0
-sS'removegrainsse2_clense'
+sS'dither_dither_median16'
 p666
 I0
-sS'rsharpensse2_rsharpen'
+sS'flash3kyuu_deband_f3kdb_dither'
 p667
 I0
-sS'fft3dfilter_fft3dfilter'
+sS'convolution3d_convolution3dyv12'
 p668
 I0
-sS'tivtc_requestlinear'
+sS'smoothadjust_smoothcustom16'
 p669
 I0
-sS'degrainmedian_degrainmedian'
+sS'libavxffms2_ffconverttorgb24'
 p670
 I0
-sS'removegrains_backwardclense'
+sS'resamplehq-x86_resamplehq'
 p671
 I0
-sS'framenumber_framenumber'
+sS'tivtc_tfm'
 p672
 I0
-sS'flash3kyuu_deband_f3kdb_dither'
+sS'hbvfwsource_hbvfwsource'
 p673
 I0
-sS'repairsse2_temporalrepair'
+sS'tdeint_tdeint'
 p674
 I0
-sS'mt_masktools_mt_mappedblur'
+sS'libavxffms2_ffdeinterlace'
 p675
 I0
-sS'convolution3d_convolution3dyv12'
+sS'dither_dither_removegrain16'
 p676
 I0
-sS'smoothadjust_smoothcustom16'
+sS'ffms2_ffvideosource'
 p677
 I0
-sS'it_it'
+sS'tbilateral_tbilateral'
 p678
 I0
-sS'resamplehq-x86_resamplehq'
+sS'sashimi_rawreader'
 p679
 I0
-sS'mt_masktools_mt_polish'
+sS'tivtc_tdecimate'
 p680
 I0
-sS'mt_masktools_mt_inflate'
+sS'dgdecode_mpeg2source'
 p681
 I0
-sS'hbvfwsource_hbvfwsource'
+sS'libavxffms2_ffconverttorgb32'
 p682
 I0
-sS'ffms2_ffgetversion'
+sS'flash3kyuu_deband_f3kdb'
 p683
 I0
-sS'msharpen_msharpen'
+sS'tivtc_framediff'
 p684
 I0
-sS'mt_masktools_mt_clamp'
+sS'fft3dgpu_fft3dgpu'
 p685
 I0
-sS'removegrainsse2_forwardclense'
+sS'dedup_dedup'
 p686
 I0
-sS'dedup_dedup'
+sS'tunsharp_tunsharp'
 p687
 I0
-sS'mt_masktools_mt_logic'
+sS'lsmashsource_lwlibavvideosource'
 p688
 I0
-sS'dither_dither_removegrain16'
+sS'leakkerneldeint_leakkerneldeint'
 p689
 I0
-sS'ffms2_ffvideosource'
+sS'colormatrix_colormatrix'
 p690
 I0
-sS'tbilateral_tbilateral'
+sS'mipsmooth_mipsmooth'
 p691
 I0
-sS'mt_masktools_mt_lut'
+sS'toon-v1.0_toon'
 p692
 I0
-sS'repair_temporalrepair'
+sS'framenumber_framenumber'
 p693
 I0
-sS'sashimi_rawreader'
+sS'smoothadjust_smoothtools16'
 p694
 I0
-sS'vsfilter_vobsub'
+sS'libavxffms2_swscale'
 p695
 I0
-sS'tivtc_tdecimate'
+sS'tivtc_showcombedtivtc'
 p696
 I0
-sS'nicaudio_nicmpg123source'
+sS'msmooth_msmooth'
 p697
 I0
-sS'dgdecode_mpeg2source'
+sS'kerneldeint140_kerneldeint'
 p698
 I0
-sS'libavxffms2_ffconverttorgb32'
+sS'fluxsmooth_fluxsmootht'
 p699
 I0
-sS'dither_dither_sub16'
+sS'smoothadjust_smoothtweak'
 p700
 I0
-sS'tivtc_framediff'
+sS'lsmashsource_lwlibavaudiosource'
 p701
 I0
-sS'fft3dgpu_fft3dgpu'
+sS'deblock_deblock'
 p702
 I0
-sS'libavxffms2_ffdeinterlace'
+sS'dustv5_spacedust'
 p703
 I0
-sS'libavxffms2_ffindex'
+sS'smoothadjust_smoothtools'
 p704
 I0
-sS'rsharpens_motionsharpen'
+sS'dustv5_golddust'
 p705
 I0
-sS'tunsharp_tunsharp'
+sS'decomb_decimate'
 p706
 I0
-sS'rsharpensse3_motionsharpen'
+sS'dither_dither_bilateral16'
 p707
 I0
-sS'mt_masktools_mt_losange'
+sS'sashimi_rawwriter'
 p708
 I0
-sS'repair_repair'
+sS'lsmashsource_lsmashvideosource'
 p709
 I0
-sS'leakkerneldeint_leakkerneldeint'
+sS'libavxffms2_ffvideosource'
 p710
 I0
-sS'colormatrix_colormatrix'
+sS'tivtc_fielddiff'
 p711
 I0
-sS'tivtc_iscombedtivtc'
+sS'decomb_fielddeinterlace'
 p712
 I0
-sS'dither_dither_max_dif16'
+sS'dustv5_faerydust'
 p713
 I0
-sS'mipsmooth_mipsmooth'
+sS'ffms2_swscale'
 p714
 I0
-sS'toon-v1.0_toon'
+sS'defreq_defreq'
 p715
 I0
-sS'mt_masktools_mt_expand'
+sS'gicocu_gicocu'
 p716
 I0
-sS'smoothadjust_smoothtools16'
+sS'avss_dss2'
 p717
 I0
-sS'libavxffms2_swscale'
+sS'smoothadjust_smoothtweak16'
 p718
 I0
-sS'tivtc_showcombedtivtc'
+sS'libavxffms2_ffindex'
 p719
 I0
-sS'msmooth_msmooth'
+sS'asharp_asharp'
 p720
 I0
-sS'removegrain_clense'
+sS'tcpdeliver_tcpserver'
 p721
 I0
-sS'kerneldeint140_kerneldeint'
+sS'libavxffms2_ffaudiosource'
 p722
 I0
-sS'nicaudio_nicbufferaudio'
+sS'libavxframecapture_avxframecapture'
 p723
 I0
-sS'removegrainsse2_backwardclense'
+sS'tomsmocomp_tomsmocomp'
 p724
 I0
-sS'fluxsmooth_fluxsmootht'
+sS'dgdecode_deblock'
 p725
 I0
-sS'convolution3dyv12_convolution3d'
+sS'dither_dither_add16'
 p726
 I0
-sS'smoothadjust_smoothtweak'
+sS'libavxffms2_ffconverttoyuy2'
 p727
 I0
-sS'mt_masktools_mt_freelosange'
+sS'dedup_dupmc'
 p728
 I0
-sS'removegrain_backwardclense'
+sS'libautocrop_autocrop'
 p729
 I0
-sS'mt_masktools_mt_average'
+sS'frfun7_frfun7'
 p730
 I0
-sS'lsmashsource_lwlibavaudiosource'
+sS'dither_dither_sub16'
 p731
 I0
-sS'mt_masktools_mt_rectangle'
+sS'dither_dither_box_filter16'
 p732
 I0
-sS'dustv5_spacedust'
+sS'tivtc_cfielddiff'
 p733
 I0
-sS'nicaudio_nicac3source'
+sS'agc_hdragc'
 p734
 I0
-sS'removegrains_mcclense'
+sS'ffms2_ffindex'
 p735
 I0
-sS'mt_masktools_mt_square'
+sS'tivtc_cframediff'
 p736
 I0
-sS'mt_masktools_mt_adddiff'
+sS'dither_dither_merge16'
 p737
 I0
-sS'dustv5_golddust'
+sS'dither_dither_limit_dif16'
 p738
 I0
-sS'repairsse2_repair'
+sS'tnlmeans_tnlmeans'
 p739
 I0
-sS'mt_masktools_mt_deflate'
+sS'leakkerneldeint_leakkernelbob'
 p740
 I0
-sS'mt_masktools_mt_hysteresis'
+sS'msharpen_msharpen'
 p741
 I0
-sS'dither_smoothgrad'
+sS'soundout_soundout'
 p742
 I0
-sS'dither_dither_bilateral16'
+sS'dgdecode_blindpp'
 p743
 I0
-sS'fluxsmooth_fluxsmoothst'
+sS'libavxffms2_ffsetloglevel'
 p744
 I0
-sS'lsmashsource_lsmashvideosource'
+sS'dgdecode_lumayv12'
 p745
 I0
-sS'libavxffms2_ffvideosource'
+sS'libavxsubtitle_avxsubtitle'
 p746
 I0
-sS'tivtc_fielddiff'
+sS'dither_smoothgrad'
 p747
 I0
-sS'decomb_fielddeinterlace'
+sS'temporalcleaner_temporalcleaner'
 p748
 I0
-sS'dustv5_faerydust'
+sS'fft3dfilter_fft3dfilter'
 p749
 I0
-sS'removegrainsse3_mcclense'
+sS'fluxsmooth_fluxsmoothst'
 p750
 I0
-sS'ffms2_swscale'
+sS'avstp_avstp_set_threads'
 p751
 I0
-sS'defreq_defreq'
+sS'dup_dup'
 p752
 I0
-sS'mt_masktools_mt_inpand'
+sS'dgdecodenv_dgsource'
 p753
 I0
-sS'deblock_deblock'
+sS'libavxffms2_ffgetloglevel'
 p754
 I0
-sS'gicocu_gicocu'
+sS'tivtc_iscombedtivtc'
 p755
 I0
-sS'avss_dss2'
+sS'ffms2_ffgetversion'
 p756
 I0
-sS'smoothadjust_smoothtweak16'
+sS'tcomb_tcomb'
 p757
 I0
-sS'ffms2_ffsetloglevel'
+sS'warpsharp_unsharpmask'
 p758
 I0
-sS'soundout_soundout'
+sS'decomb_iscombed'
 p759
 I0
-sS'removegrainsse3_clense'
+sS'dither_dither_out'
 p760
 I0
-sS'removegrain_forwardclense'
+sS'nnedi3_nnedi3_rpow2'
 p761
 I0
-sS'smoothadjust_smoothtools'
+sS'eedi2_eedi2'
 p762
 I0
-sS'lsmashsource_lwlibavvideosource'
+sS'grid_grid'
 p763
 I0
-sS'mt_masktools_mt_freerectangle'
+sS'awarpsharp_awarpsharp'
 p764
 I0
-sS'vsfilter_textsubswapuv'
+sS'lsmashsource_lsmashaudiosource'
 p765
 I0
-sS'asharp_asharp'
+sS'dither_dither_max_dif16'
 p766
 I0
-sS'vsfilter_textsub'
+sS'smoothadjust_smoothlevels'
 p767
 I0
-sS'libavxffms2_ffaudiosource'
+sS'hqdn3d_hqdn3d'
 p768
 I0
-sS'libavxframecapture_avxframecapture'
+sS'dither_dither_repair16'
 p769
 I0
-sS'libavxffms2_ffsetloglevel'
+sS'unfilter_unfilter'
 p770
 I0
-sS'dgdecode_deblock'
+sS'vinverse_vinverse'
 p771
 I0
-sS'dither_dither_add16'
+sS'cnr2_cnr2'
 p772
 I0
-sS'libavxffms2_ffconverttoyuy2'
+sS'ttempsmooth_ttempsmooth'
 p773
 I0
-sS'avstp_avstp_set_threads'
+sS'dither_ditherpost'
 p774
 I0
-sS'mt_masktools_mt_binarize'
+sS'convolution3d_convolution3d'
 p775
 I0
-sS'tomsmocomp_tomsmocomp'
+sS'undot_undot'
 p776
 I0
-sS'removegrainsse3_forwardclense'
+sS'nnedi_nnedi'
 p777
 I0
-sS'frfun7_frfun7'
+sS'tivtc_mergehints'
 p778
 I0
-sS'mt_masktools_mt_ellipse'
+sS'ttempsmooth_ttempsmoothf'
 p779
 I0
-sS'dither_dither_box_filter16'
+sS'libavxffms2_ffgetversion'
 p780
 I0
-sS'mt_masktools_mt_invert'
+sS'libavxffms2_ffconverttoyv12'
 p781
 I0
-sS'removegrainsse3_removegrain'
+sS'tcpdeliver_tcpsource'
 p782
 I0
-sS'tivtc_cfielddiff'
+sS'rotate_rotate'
 p783
 I0
-sS'nicaudio_niclpcmsource'
+sS'smoothadjust_smoothcurve16'
 p784
 I0
-sS'mt_masktools_mt_freeellipse'
+sS'ffms2_ffaudiosource'
 p785
 I0
-sS'rsharpensse2_motionsharpen'
-p786
-I0
-sS'decomb_telecide'
-p787
-I0
-sS'agc_hdragc'
-p788
-I0
-sS'ffms2_ffindex'
-p789
-I0
-sS'mt_masktools_mt_convolution'
-p790
-I0
-sS'removegrainsse3_backwardclense'
-p791
-I0
-sS'repairs_temporalrepair'
-p792
-I0
-sS'tivtc_cframediff'
-p793
-I0
-sS'bifrost_bifrost'
-p794
-I0
-sS'dither_dither_limit_dif16'
-p795
-I0
-sS'tnlmeans_tnlmeans'
-p796
-I0
-sS'leakkerneldeint_leakkernelbob'
-p797
-I0
-sS'tdeint_tdeint'
-p798
-I0
-sS'smoothadjust_smoothcustom'
-p799
-I0
-sS'dgdecode_blindpp'
-p800
-I0
-sS'mt_masktools_mt_luts'
-p801
-I0
-sS'denoisesharpen_denoisesharpen'
-p802
-I0
-sS'dgdecode_lumayv12'
-p803
-I0
-sS'libavxsubtitle_avxsubtitle'
-p804
-I0
-sS'decomb_decimate'
-p805
-I0
-sS'temporalcleaner_temporalcleaner'
-p806
-I0
-sS'edeen_edeen'
-p807
-I0
-sS'mt_masktools_mt_makediff'
-p808
-I0
-sS'nicaudio_nicdtssource'
-p809
-I0
-sS'mt_masktools_mt_lutf'
-p810
-I0
-sS'mt_masktools_mt_diamond'
-p811
-I0
-sS'dedup_dupmc'
-p812
-I0
-sS'dup_dup'
-p813
-I0
-sS'dgdecodenv_dgsource'
-p814
-I0
-sS'vsfilter_masksub'
-p815
-I0
-sS'denoisesharpen_clensesharpen'
-p816
-I0
-sS'libavxffms2_ffgetloglevel'
-p817
-I0
-sS'libavxffms2_ffconverttorgb24'
-p818
-I0
-sS'removegrain_mcclense'
-p819
-I0
-sS'undot_undot'
-p820
-I0
-sS'dither_dither_median16'
-p821
-I0
-sS'mt_masktools_mt_lutsx'
-p822
-I0
-sS'removegrains_clense'
-p823
-I0
-sS'tcomb_tcomb'
-p824
-I0
-sS'warpsharp_unsharpmask'
-p825
-I0
-sS'decomb_iscombed'
-p826
-I0
-sS'tcpdeliver_tcpserver'
-p827
-I0
-sS'removegrains_removegrain'
-p828
-I0
-sS'removegrainsse2_mcclense'
-p829
-I0
-sS'dither_dither_out'
-p830
-I0
-sS'mt_masktools_mt_motion'
-p831
-I0
-sS'nnedi3_nnedi3_rpow2'
-p832
-I0
-sS'eedi2_eedi2'
-p833
-I0
-sS'libautocrop_autocrop'
-p834
-I0
-sS'removegrainsse2_removegrain'
-p835
-I0
-sS'awarpsharp_awarpsharp'
-p836
-I0
-sS'lsmashsource_lsmashaudiosource'
-p837
-I0
-sS'flash3kyuu_deband_f3kdb'
-p838
-I0
-sS'smoothadjust_smoothlevels'
-p839
-I0
-sS'libavxffms2_ffconverttoyv12'
-p840
-I0
-sS'rsharpensse3_rsharpen'
-p841
-I0
-sS'mt_masktools_mt_merge'
-p842
-I0
-sS'unfilter_unfilter'
-p843
-I0
-sS'vinverse_vinverse'
-p844
-I0
-sS'cnr2_cnr2'
-p845
-I0
-sS'ttempsmooth_ttempsmooth'
-p846
-I0
-sS'sashimi_rawwriter'
-p847
-I0
-sS'dither_dither_repair16'
-p848
-I0
-sS'repairsse3_repair'
-p849
-I0
-sS'mt_masktools_mt_lutxyz'
-p850
-I0
-sS'dither_ditherpost'
-p851
-I0
-sS'convolution3d_convolution3d'
-p852
-I0
-sS'tdeint_tswitch'
-p853
-I0
-sS'rsharpen_rsharpen'
-p854
-I0
-sS'grid_grid'
-p855
-I0
-sS'tivtc_tfm'
-p856
-I0
-sS'nnedi_nnedi'
-p857
-I0
-sS'tivtc_mergehints'
-p858
-I0
-sS'ffms2_ffaudiosource'
-p859
-I0
-sS'libavxffms2_ffgetversion'
-p860
-I0
-sS'mt_masktools_mt_lutxy'
-p861
-I0
-sS'repairs_repair'
-p862
-I0
-sS'hqdn3d_hqdn3d'
-p863
-I0
-sS'tcpdeliver_tcpsource'
-p864
-I0
-sS'rotate_rotate'
-p865
-I0
-sS'smoothadjust_smoothcurve16'
-p866
-I0
-sS'ttempsmooth_ttempsmoothf'
-p867
-I0
 ssS'autocrop_samples'
-p868
+p786
 I10
 sS'usemonospacedfont'
-p869
+p787
 I00
 sS'usealtdir'
-p870
+p788
 I01
 sS'paranoiamode'
-p871
+p789
 I00
 sS'focusonrefresh'
-p872
+p790
 I01
 sS'autoslidermakecolor'
-p873
+p791
 I01
 sS'templates'
-p874
-(dp875
+p792
+(dp793
 S'mpg'
-p876
+p794
 S'DirectShowSource(***)'
-p877
+p795
 sS'dga'
-p878
+p796
 S'AVCSource(***)'
-p879
+p797
 sS'dgi'
-p880
+p798
 S'DGSource(***)'
-p881
+p799
 sS'wmv'
-p882
-g877
+p800
+g795
 sS'jpg'
-p883
+p801
 S'ImageSource(***)'
-p884
+p802
 sS'avs'
-p885
+p803
 S'Import(***)'
-p886
+p804
 sS'mp4'
-p887
-g877
+p805
+g795
 sS'avi'
-p888
+p806
 S'AVISource(***)'
-p889
+p807
 sS'png'
-p890
-g884
+p808
+g802
 sS'bmp'
-p891
-g884
+p809
+g802
 sS'd2v'
-p892
+p810
 S'MPEG2Source(***, cpu=0)'
-p893
+p811
 sS'mkv'
-p894
-g877
+p812
+g795
 sS'wav'
-p895
+p813
 S'WAVSource(***)'
-p896
+p814
 ssS'fdb_userscriptfunctions'
-p897
+p815
 I01
 sS'workdir'
-p898
-V%programdir%\u005ctools
-p899
+p816
+S'%programdir%\\tools'
+p817
 sS'parseavsi'
-p900
+p818
 I01
 sS'calltips'
-p901
+p819
 I01
 sS'autoupdatevideo'
-p902
+p820
 I00
 sS'numlinechars'
-p903
+p821
 I1
 sS'reservedshortcuts'
-p904
-(lp905
-S'Tab'
-p906
+p822
+(lp823
+g302
 aS'Shift+Tab'
-p907
+p824
 aS'Ctrl+Z'
-p908
+p825
 aS'Ctrl+Y'
-p909
+p826
 aS'Ctrl+X'
-p910
+p827
 aS'Ctrl+C'
-p911
+p828
 aS'Ctrl+V'
-p912
+p829
 aS'Ctrl+A'
-p913
+p830
 asS'altdir'
-p914
+p831
 V%programdir%\u005cavs
-p915
+p832
 sS'usetabs'
-p916
+p833
 I00
 sS'lang'
-p917
-Vchi
-p918
+p834
+S'eng'
+p835
 sS'usetabimages'
-p919
+p836
 I01
 sS'trimmarkframes'
-p920
+p837
 I01
 sS'externalplayer'
-p921
-V
+p838
+S''
 sS'userecentdir'
-p922
+p839
 I01
 sS'autocompletesingle'
-p923
+p840
 I01
 sS'loadstartupbookmarks'
-p924
+p841
 I01
 sS'docsearchurl'
-p925
-Vhttp://www.google.com/search?q=%filtername%+Avisynth
-p926
+p842
+S'http://www.google.com/search?q=%filtername%+Avisynth'
+p843
 sS'fixedwidthtab'
-p927
+p844
 I00
 s.
