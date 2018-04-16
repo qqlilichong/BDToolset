@@ -1,0 +1,9 @@
+滤镜包定期更新日期：2014-6-28
+msvcr100.dll
+msvcr120.dll
+fftw3.dll
+这三个文件需要放进系统目录：32bit操作系统放入C:\Windows\System32\
+                            64bit操作系统放入C:\Windows\SysWOW64\
+
+其中FFT3dGPU需要安装新版本DirectX最终运行库才能运行，一般大型单机游戏都包含.
+建议把该目录下都所有文件复制到自己AviSynth安装目录的plugins文件夹下自动加载.
