@@ -1,4 +1,0 @@
-
-[Mon Apr 16 16:59:40 2018]
-Error parsing plugin string at position 0:
- 
