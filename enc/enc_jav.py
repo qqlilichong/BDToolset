@@ -12,14 +12,13 @@ import subprocess
 
 tool = {
     'BDTOOL': 'E:/gitpri/BDToolset',
-    'X265': 'x265/x265.exe',
+    'X265': 'x265/x265-8.exe',
     'VS': 'C:/Softwares/VapourSynth/core64/vspipe.exe',
 }
 
 x265 = [
     '--preset', 'veryslow',
     '--tune', 'littlepox++',
-    '--output-depth 8',
     '--no-open-gop',
     '--no-sao',
     '--no-strong-intra-smoothing',
