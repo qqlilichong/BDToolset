@@ -4,7 +4,8 @@
 
 import os
 import mvsfunc as mvf
-from vapoursynth import core
+import havsfunc as haf
+import vapoursynth as vs
 
 
 ##################################################################################
@@ -12,7 +13,7 @@ from vapoursynth import core
 
 f_depth = {
 	'use'		: 0,
-	'begin'		: 32,
+	'begin'		: 16,
 	'end'		: 8,
 }
 
@@ -37,9 +38,17 @@ f_waifu2x = {
 	'scale'		: 1,
 }
 
+f_smd = {
+	'use'		: 0,
+	'tr'		: 50,
+	'thSAD'		: 1200,
+}
+
 
 ##################################################################################
 
+core = vs.core
+core.max_cache_size = 16 * 1024
 
 source = os.path.splitext(os.path.basename(__file__))[0]
 video = core.ffms2.Source(source, timecodes = source + '.txt')
@@ -56,6 +65,9 @@ if f_resize['use']:
 if f_waifu2x['use']:
 	video = core.w2xc.Waifu2x(video, noise = f_waifu2x['noise'], scale = f_waifu2x['scale'])
 
+if f_smd['use']:
+    video = haf.SMDegrain(video, tr = f_smd['tr'], thSAD = f_smd['thSAD'])
+    
 if f_depth['use']:
 	video = mvf.Depth(video, depth = f_depth['end'])
 
