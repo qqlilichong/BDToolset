@@ -13,18 +13,19 @@ import subprocess
 tool = {
     'BDTOOL': 'E:/gitpri/BDToolset',
     'X265': 'x265/x265.exe',
-    'VS': 'AvsPmod/avs/avs4x26x.exe',
+    'VS': 'C:/Softwares/VapourSynth/core64/vspipe.exe',
 }
 
 x265 = [
     '--preset', 'veryslow',
-    '--tune', 'littlepox++',
-    '--output-depth 8',
+    '--tune', 'vcb-s++',
     '--no-open-gop',
     '--no-sao',
     '--no-strong-intra-smoothing',
     '--no-rect',
     '--no-amp',
+    '--y4m',
+    '--input -',
 ]
 
 
@@ -35,7 +36,9 @@ x265 = [
 tool['SOURCE'] = input('vpy file : ')
 
 # crf.
-crf = 25
+crf = input('crf (default 16) : ')
+if not crf:
+    crf = '16'
 
 # output file.
 output = os.path.join(os.path.dirname(tool['SOURCE']), '%s.mkv' % crf)
@@ -68,13 +71,16 @@ for x, y in tool.items():
 # make command.
 command = [
     tool['VS'],
-    '--x26x-binary',
+    '--y4m',
+    tool['SOURCE'],
+    '-',
+    '|',
     tool['X265'],
 ]
 
 command += x265
 command = ' '.join(line for line in command)
-command += ' ' + tool['SOURCE']
+
 
 #################################################################################
 
@@ -83,6 +89,7 @@ command += ' ' + tool['SOURCE']
 print('')
 print(command)
 print('')
+os.system('pause')
 
 # clear old file.
 if os.path.exists(output):
