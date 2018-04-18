@@ -63,7 +63,7 @@ if f_resize['use']:
 	video = core.fmtc.resample(video, w = f_resize['w'], h = f_resize['h'], kernel = f_resize['k'])
 
 if f_waifu2x['use']:
-	video = core.w2xc.Waifu2x(video, noise = f_waifu2x['noise'], scale = f_waifu2x['scale'])
+	video = core.caffe.Waifu2x(video, noise = f_waifu2x['noise'], scale = f_waifu2x['scale'], model = 3)
 
 if f_smd['use']:
     video = haf.SMDegrain(video, tr = f_smd['tr'], thSAD = f_smd['thSAD'])
