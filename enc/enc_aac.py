@@ -18,7 +18,7 @@ tool = {
 ffmpeg = [
     '-c:v copy',
     '-c:a aac',
-    '-q:a 0.8',
+    '-q:a 1.0',
 ]
 
 
