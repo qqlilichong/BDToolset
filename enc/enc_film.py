@@ -36,9 +36,9 @@ x265 = [
 tool['SOURCE'] = input('vpy file : ')
 
 # crf.
-crf = input('crf (default 16) : ')
+crf = input('crf (default 20) : ')
 if not crf:
-    crf = '16'
+    crf = '20'
 
 # output file.
 output = os.path.join(os.path.dirname(tool['SOURCE']), '%s.mkv' % crf)
