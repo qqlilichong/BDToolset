@@ -39,9 +39,7 @@ f_waifu2x = {
 }
 
 f_smd = {
-	'use'		: 0,
-	'tr'		: 50,
-	'thSAD'		: 1200,
+	'use'		: 0
 }
 
 
@@ -66,7 +64,7 @@ if f_waifu2x['use']:
 	video = core.caffe.Waifu2x(video, noise = f_waifu2x['noise'], scale = f_waifu2x['scale'], model = 3)
 
 if f_smd['use']:
-    video = haf.SMDegrain(video, tr = f_smd['tr'], thSAD = f_smd['thSAD'])
+    video = haf.SMDegrain(video)
     
 if f_depth['use']:
 	video = mvf.Depth(video, depth = f_depth['end'])
