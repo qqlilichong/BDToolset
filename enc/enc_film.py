@@ -99,6 +99,7 @@ if os.path.exists(output):
 subprocess.call(command, shell=True)
 
 # end.
+print(tool['SOURCE'])
 os.system('pause')
 
 

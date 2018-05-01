@@ -39,7 +39,7 @@ f_waifu2x = {
 }
 
 f_smd = {
-	'use'		: 0
+	'use'		: 1
 }
 
 
